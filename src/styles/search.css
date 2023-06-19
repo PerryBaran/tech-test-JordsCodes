@@ -1,0 +1,23 @@
+.search-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form_logo {
+  width: 25%;
+  height: 20%;
+  margin: auto;
+}
+
+.search-form_wrapper {
+  display:flex;
+  margin: auto;
+}
+
+.search-form_input {
+  margin-right: 5%;
+}
+
+.search-form_button {
+  width: 25px;
+}
