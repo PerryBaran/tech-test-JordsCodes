@@ -2,30 +2,23 @@
 
 exports[`Search renders correctly 1`] = `
 <DocumentFragment>
-  <div
+  <img
+    alt="nasa logo in red"
+    class="search-form_logo"
+    src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+  />
+  <form
     class="search-form"
   >
-    <img
-      alt="nasa logo in red"
-      class="search-form_logo"
-      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    <input
+      class="search-form_input"
+      type="text"
     />
-    <div
-      class="search-form_wrapper"
-    >
-      <input
-        class="search-form_input"
-        type="text"
-      />
-      <input
-        alt="magnifying glass"
-        class="search-form_button"
-        label="text"
-        src="search.png"
-        title="magnifying glass icons"
-        type="image"
-      />
-    </div>
-  </div>
+    <button
+      alt="magnifying glass button"
+      class="search-form_button"
+      type="submit"
+    />
+  </form>
 </DocumentFragment>
 `;
