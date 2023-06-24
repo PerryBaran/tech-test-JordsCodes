@@ -32,6 +32,8 @@ To start the app, navigate to the app's root directory and run:
 
 `npm start`
 
+The user can search for strictly space-related images. The images will be displayed in either 1, 2, or 3 columns depending on the width of the viewport.
+
 ## Notes
 
 Given additional time, I would have liked to make the app more responsive to different screen layouts. I would also alter the way the data is destructured to allow for more appropriate alternative descriptions for each of the rendered images.
