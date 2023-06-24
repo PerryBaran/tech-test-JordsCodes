@@ -1,12 +1,10 @@
 .search-form {
   display: flex;
-  margin: auto;
 }
 
 .search-form_logo {
   width: 256px;
   height: 128px;
-  margin: 0px auto;
 }
 
 .search-form_button {
