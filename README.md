@@ -14,6 +14,8 @@ Mobile UI:
 
 <img src="/src/images/mobile-screenshot.png" alt="mobile screenshot"/>
 
+The brief for this test was to build a React web application that allows users to search for images based on a query relating to space.
+
 ## Installation
 
 Navigate to the desired directory in your terminal and run: 
@@ -30,6 +32,9 @@ To start the app, navigate to the app's root directory and run:
 
 `npm start`
 
+## Notes
+
+Given additional time, I would have liked to make the app more responsive to different screen layouts. I would also alter the way the data is destructured to allow for more appropriate alternative descriptions for each of the rendered images.
 
 ## Credits
 
@@ -42,3 +47,7 @@ Jordan Noble:
 https://twitter.com/JordsCodes
 
 https://www.linkedin.com/in/jordan-noble-a9b931267/
+
+
+
+
