@@ -8,11 +8,11 @@ The dependencies for this project are React, Node.js and axios.
 
 Desktop UI:
 
-<img src="/src/images/desktop-screenshot.png" alt="desktop screenshot"/>
+<img src="/src/images/desktop-screenshot.png?" alt="desktop screenshot"/>
 
 Mobile UI:
 
-<img src="/src/images/mobile-screenshot.png" alt="mobile screenshot"/>
+<img src="/src/images/mobile-screenshot.png?" alt="mobile screenshot"/>
 
 The brief for this test was to build a React web application that allows users to search for images based on a query relating to space.
 
