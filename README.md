@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Nasa Search Engine Technical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app designed to retrieve and display space-related images from a NASA API endpoint:
 
-## Available Scripts
+`https://images-api.nasa.gov/searchq={searchInput}`
 
-In the project directory, you can run:
+The dependencies for this project are React, Node.js and axios.
 
-### `npm start`
+Desktop UI:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="/src/images/desktop-screenshot.png?" alt="desktop screenshot"/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mobile UI:
 
-### `npm test`
+<img src="/src/images/mobile-screenshot.png?" alt="mobile screenshot"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The brief for this test was to build a React web application that allows users to search for images based on a query relating to space.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigate to the desired directory in your terminal and run: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`https://github.com/JordsCodes/tech-test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install Node Project Manager:
 
-### `npm run eject`
+`npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the app, navigate to the app's root directory and run: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The user can search for strictly space-related images. The images will be displayed in either 1, 2, or 3 columns depending on the width of the viewport.
 
-## Learn More
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Given additional time, I would have liked to make the app more responsive to different screen layouts. I would also alter the way the data is destructured to allow for more appropriate alternative descriptions for each of the rendered images.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
 
-### Code Splitting
+Command Shift:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://github.com/CommandShiftHQ
 
-### Analyzing the Bundle Size
+Jordan Noble:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+https://twitter.com/JordsCodes
 
-### Making a Progressive Web App
+https://www.linkedin.com/in/jordan-noble-a9b931267/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
